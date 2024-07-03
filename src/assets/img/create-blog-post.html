@@ -1,0 +1,540 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Liberate - Create Blog Post</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+<!-- CSS here -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/liberate-font-icon.css">
+<link rel="stylesheet" href="css/fontawesome-all.min.css">
+<link rel="stylesheet" href="css/Pe-icon-7-stroke.css">
+<link rel="stylesheet" href="css/animated-headline.css">
+<link rel="stylesheet" href="css/meanmenu.css">
+<link rel="stylesheet" href="css/aos.css">
+<link rel="stylesheet" href="css/nice-select.css">
+<link rel="stylesheet" href="css/odometer.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/default.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+<div class="sidebar-all-links">
+<a href="#sidebar-all-links" data-toggle="modal" class="sidebar-links-btn">All Links</a>
+</div>
+<!-- preloader -->
+<div id="preloader">
+  <div class="preloader"> <span></span> <span></span> </div>
+</div>
+<!-- preloader end  -->  
+<!-- Mobile Sidebar Menu start  -->
+<div class="sidebar-menu extra-info">
+  <div class="close-icon menu-close">
+    <button> <i class="lb lb-cancel-icon"></i> </button>
+  </div>
+  <div class="side-nav-bx">
+    <ul>
+       <li><a href="credits.html"><i class="lb lb-credits-icon"></i> Credits (15)</a></li>
+    </ul>
+  </div>
+  <div class="side-nav-bx">
+    <ul>	
+	  <li><a href="profile.html"><i class="lb lb-user-icon"></i> My Profile</a></li>
+      <li><a href="create-event.html"><i class="lb lb-calendar-icon"></i> Calender</a></li>
+	  <li><a href="javascript:void(0);" data-toggle="modal" data-target="#invite-users-popup"><i class="lb lb-invite-icon"></i> Invite</a></li>
+      <li><a href="apply-for-practitioner.html"><i class="lb lb-apply--for-practitioner-icon"></i> Apply for Practitioner</a></li>
+	</ul>
+  </div>
+  <div class="side-nav-bx">
+    <ul>
+        <li><a href="account.html"><i class="lb lb-dashboard-icon"></i> Dashboard</a></li>
+        <li><a href="notifications.html"><i class="lb lb-notification-icon"></i> Notifications</a></li>
+        <li><a href="payments.html"><i class="lb lb-Payments-icon"></i> Payments</a></li>
+        <li><a href="billing-info.html"><i class="lb lb-billinginfo-icon"></i> Billing Info</a></li>
+        <li><a href="referrals.html"><i class="lb lb-referrals-icon"></i> Referrals</a></li>
+        <li><a href="settings.html"><i class="lb lb-settings-icon"></i> Settings</a></li>
+        <li><a href="interests.html"><i class="lb lb-interests-dashboard-icon"></i> Interests</a></li>
+        <li><a href="reviews.html"><i class="lb lb-interests-icon"></i> Reviews</a></li>
+        <li><a href="media.html"><i class="lb lb-medial-icon"></i> Media</a></li>
+        <li><a href="service.html"><i class="lb lb-service-icon"></i> Service</a></li>		
+        <li><a href="packages.html"><i class="lb lb-delivery-box-icon"></i> Packages</a></li>
+		<li><a href="bookings.html"><i class="lb lb-calendar-icon"></i> Bookings</a></li>
+		<li><a href="chat.html"><i class="lb lb-message-icon"></i> Messages</a></li>	
+        <li><a href="discount.html"><i class="lb lb-generate-code-icon"></i> Discount</a></li>	
+        <li><a href="credits.html"><i class="lb lb-credits-icon"></i> Credits</a></li>		
+    </ul>
+  </div>
+    <div class="side-nav-bx">
+	  <ul>
+	  <li><a href="index.html"><i class="lb lb-exit-icon"></i> Logout</a></li>	  
+	</ul>
+  </div>
+</div>
+<div class="offcanvas-overly"></div>
+<!-- Mobile Sidebar Menu end  --> <!-- header -->
+<header id="header-sticky" class="header-wrap p-relative">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-sm-12 col-md-2 col-lg-4">
+        <div class="logo-m-nav">
+          <div class="logo"> <a href="index.html"><img src="img/logo.svg" alt="Logo"></a> </div>
+          <div class="mobile-menu">
+            <ul>
+			  <li><a href="javascript:void(0);"><i class="far fa-search"></i></a></li>
+              <li><a href="home.html"><i class="lb lb-home-icon"></i></a></li>
+              <li><a href="login.html"><i class="lb lb-user-icon"></i> <span>Login</span></a></li>
+              <li><a href="javascript:void(0);" class="sidebar-menu menu-tigger"><i class="lb lb-modalities-icon"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-5 col-lg-4 desktop-search">
+        <div class="search-form">
+          <form action="javascript:void(0);">
+            <div class="top-search-bar">
+              <input type="email" placeholder="Search...">
+              <button class="btn-link"><i class="far fa-search"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-5 col-lg-4 desktop-nav-right">
+        <div class="menu-icon menu-rit-side text-right">
+          <div class="dektop-menu">
+            <ul>
+				<li>
+                <div class="dropdown dd-right-side notification-dd"><a class="link-btn dropdown-toggle" href="javascript:void(0);" role="button" id="package-dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="lb lb-delivery-box-icon" data-toggle="tooltip" title="Packages"></i></a>
+                  <div class="dropdown-menu" aria-labelledby="packages-dd">
+                    <div class="notification-list">                     
+						<div class="noti-dd-heading"> <strong>Your Packages</strong> <a href="packages.html">See All</a> </div>
+                      <div class="noti-dd-listing">
+                        <div class="package-dd-box">
+                        <p><a href="practitioner-profile.html">Natale Janu</a> 1 Package Booked for Webnaires at <span>15, March 2021</span></p>                           
+                        </div>
+						  <div class="package-dd-box">
+                        <p><a href="practitioner-profile.html">Natale Janu</a> 1 Package Booked for Webnaires at <span>15, March 2021</span></p>                           
+                        </div>
+                         <div class="package-dd-box">
+                        <p><a href="practitioner-profile.html">Natale Janu</a> 1 Package Booked for Webnaires at <span>15, March 2021</span></p>                           
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="home.html" data-toggle="tooltip" title="Home"><i class="lb lb-home-icon"></i></a></li>
+              <li><a href="create-event.html" data-toggle="tooltip" title="Scheduler"><i class="lb lb-calendar-icon"></i></a> </li>
+			  <li>
+                <div class="dropdown dd-right-side notification-dd"><a class="link-btn dropdown-toggle" href="javascript:void(0);" role="button" id="message-dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="lb lb-message-icon" data-toggle="tooltip" title="Message"></i><span>5</span></a>
+                  <div class="dropdown-menu" aria-labelledby="message-dd">
+                    <div class="notification-list">
+                      <div class="noti-dd-heading"> <strong>Message</strong> <a href="chat.html">See All</a> </div>
+                      <div class="noti-dd-listing">
+                        <div class="noti-dd-box">
+                          <div class="noti-lft-img"><img src="img/practitioner-img1.jpg" alt=""/></div>
+                          <div class="noti-rit-info">
+                            <p><a href="chat.html">Natale Janu : </a> Hi, Dear</p>
+                            <span>1 Hour ago</span> </div>
+                        </div>
+                        <div class="noti-dd-box">
+                          <div class="noti-lft-img"><img src="img/practitioner-img1.jpg" alt=""/></div>
+                          <div class="noti-rit-info">
+                            <p><a href="chat.html">Natale Janu : </a> Hi, Dear</p>
+                            <span>1 Hour ago</span> </div>
+                        </div>
+                         <div class="noti-dd-box">
+                          <div class="noti-lft-img"><img src="img/practitioner-img1.jpg" alt=""/></div>
+                          <div class="noti-rit-info">
+                            <p><a href="chat.html">Natale Janu : </a> Hi, Dear</p>
+                            <span>1 Hour ago</span> </div>
+                        </div>
+                         <div class="noti-dd-box">
+                          <div class="noti-lft-img"><img src="img/practitioner-img1.jpg" alt=""/></div>
+                          <div class="noti-rit-info">
+                            <p><a href="chat.html">Natale Janu : </a> Hi, Dear</p>
+                            <span>1 Hour ago</span> </div>
+                        </div>
+                         <div class="noti-dd-box">
+                          <div class="noti-lft-img"><img src="img/practitioner-img1.jpg" alt=""/></div>
+                          <div class="noti-rit-info">
+                            <p><a href="practitioner-profile.html">Natale Janu : </a> Hi, Dear</p>
+                            <span>1 Hour ago</span> </div>
+                        </div>
+                        <div class="noti-dd-box">
+                          <div class="noti-lft-img"><img src="img/practitioner-img1.jpg" alt=""/></div>
+                          <div class="noti-rit-info">
+                            <p><a href="chat.html">Natale Janu : </a> Hi, Dear</p>
+                            <span>1 Hour ago</span> </div>
+                        </div>
+                         <div class="noti-dd-box">
+                          <div class="noti-lft-img"><img src="img/practitioner-img1.jpg" alt=""/></div>
+                          <div class="noti-rit-info">
+                            <p><a href="chat.html">Natale Janu : </a> Hi, Dear</p>
+                            <span>1 Hour ago</span> </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="favourite.html" data-toggle="tooltip" title="Favourite"><i class="lb lb-favorite-icon"></i></a></li>
+              <li>
+                <div class="dropdown dd-right-side notification-dd"><a class="link-btn dropdown-toggle" href="javascript:void(0);" role="button" id="notification-dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="lb lb-notification-icon" data-toggle="tooltip" title="Notification"></i><span>0</span></a>
+                  <div class="dropdown-menu" aria-labelledby="notification-dd">
+                    <div class="notification-list">
+                      <div class="noti-dd-heading"> <strong>Notification</strong> <a href="notifications.html">See All</a> </div>
+                      <div class="noti-dd-listing">
+                        <div class="noti-dd-box">
+                          <div class="noti-lft-img"><img src="img/practitioner-img1.jpg" alt=""/></div>
+                          <div class="noti-rit-info">
+                            <p><a href="practitioner-profile.html">Natale Janu</a> Site about Lorem Ipsum, giving information on its</p>
+                            <span>1 Hour ago</span> </div>
+                        </div>
+                        <div class="noti-dd-box">
+                          <div class="noti-lft-img"><img src="img/practitioner-img1.jpg" alt=""/></div>
+                          <div class="noti-rit-info">
+                            <p><a href="practitioner-profile.html">Natale Janu</a> Site about Lorem Ipsum, giving information on its</p>
+                            <span>1 Hour ago</span> </div>
+                        </div>
+                        <div class="noti-dd-box">
+                          <div class="noti-lft-img"><img src="img/practitioner-img1.jpg" alt=""/></div>
+                          <div class="noti-rit-info">
+                            <p><a href="practitioner-profile.html">Natale Janu</a> Site about Lorem Ipsum, giving information on its</p>
+                            <span>1 Hour ago</span> </div>
+                        </div>
+                        <div class="noti-dd-box">
+                          <div class="noti-lft-img"><img src="img/practitioner-img1.jpg" alt=""/></div>
+                          <div class="noti-rit-info">
+                            <p><a href="practitioner-profile.html">Natale Janu</a> Site about Lorem Ipsum, giving information on its</p>
+                            <span>1 Hour ago</span> </div>
+                        </div>
+                        <div class="noti-dd-box">
+                          <div class="noti-lft-img"><img src="img/practitioner-img1.jpg" alt=""/></div>
+                          <div class="noti-rit-info">
+                            <p><a href="practitioner-profile.html">Natale Janu</a> Site about Lorem Ipsum, giving information on its</p>
+                            <span>1 Hour ago</span> </div>
+                        </div>
+                        <div class="noti-dd-box">
+                          <div class="noti-lft-img"><img src="img/practitioner-img1.jpg" alt=""/></div>
+                          <div class="noti-rit-info">
+                            <p><a href="practitioner-profile.html">Natale Janu</a> Site about Lorem Ipsum, giving information on its</p>
+                            <span>1 Hour ago</span> </div>
+                        </div>
+                        <div class="noti-dd-box">
+                          <div class="noti-lft-img"><img src="img/practitioner-img1.jpg" alt=""/></div>
+                          <div class="noti-rit-info">
+                            <p><a href="practitioner-profile.html">Natale Janu</a> Site about Lorem Ipsum, giving information on its</p>
+                            <span>1 Hour ago</span> </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown dd-right-side my-account-dd"><a class="link-btn dropdown-toggle" href="#" role="button" id="my-account-dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="lb lb-user-icon" data-toggle="tooltip" title="My Account"></i></a>
+                  <div class="dropdown-menu" aria-labelledby="my-account-dd">
+                    <div class="side-nav-bx">
+                      <ul>
+					    <li><a href="credits.html"><i class="lb lb-credits-icon"></i> Credits (15)</a></li>
+                        <li><a href="profile.html"><i class="lb lb-user-icon"></i> My Profile</a></li>
+                      </ul>
+                    </div>
+					 <div class="side-nav-bx">
+					  <ul>
+					 <li><a href="apply-for-practitioner.html"><i class="lb lb-apply--for-practitioner-icon"></i> Apply for Practitioner</a></li>
+					 </ul>
+					 </div>
+                    <div class="side-nav-bx">
+                      <ul>
+                        <li><a href="account.html"><i class="lb lb-dashboard-icon"></i> Dashboard</a></li>
+						<li><a href="javascript:void(0);" data-toggle="modal" data-target="#invite-users-popup"><i class="lb lb-invite-icon"></i> Invite</a>	</li>						
+                      </ul>
+                    </div>
+					<div class="side-nav-bx">
+                      <ul>
+                        <li><a href="help-and-support.html"><i class="lb lb-dashboard-icon"></i> Help & Support</a></li>											
+                      </ul>
+                    </div>
+					
+                    <div class="side-nav-bx">
+                      <ul>
+                        <li><a href="index.html"><i class="lb lb-exit-icon"></i> Logout</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>   
+    </div>
+  </div>  
+</header>
+<!-- header-end -->  
+
+<!-- main-area -->
+<main> 
+
+  <!-- Account-section-start -->
+  <section class="account-settings-area">
+    <div class="container">
+      <div class="p-sec-heading">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+          <h2><a href="profile.html" class="btn cricle-btn back-btn-cricle"><i class="lb lb-back-icon"></i></a> Back</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="account-settings-content"> 
+         <div class="rit-as-sec">
+<div class="basic-info-bx">
+<div class="cmn-form">
+<form>
+<div class="row">
+<div class="col-sm-12 col-md-6 col-lg-6 form-group">
+  <label for="title" class="form-label">Title</label>
+  <input type="text" class="form-control" id="title" placeholder="" value="Find Your Meditation Style With These 7 Practices">
+</div>
+<div class="col-sm-6 col-md-6 col-lg-6 form-group">
+<label for="service-name" class="form-label">Category</label>
+<select name="options" class="bdr-radius-five">
+  <option value="category_one">Category One</option>
+  <option value="category_one">Category One</option>
+  <option value="category_one">Category One</option>
+  <option value="category_one">Category One</option>
+</select>
+</div>
+<div class="col-12 form-group">
+<label for="email-address" class="form-label">Description</label>
+<textarea class="form-control" id="about-me" placeholder="Type Hare..." value=""></textarea>
+<div class="input-btm-note">
+<span class="float-left">Minimum 25 Words</span>
+<span class="float-right">0/1500</span>
+</div>
+</div>
+<div class="col-12">
+<div class="upload-documents-bx blog-img-upload-bx">
+<div class="up-gray-heading">
+<strong>Upload Images</strong>
+</div>
+<div class="row">
+<div class="col-sm-12 col-md-6 col-lg-6 form-group">
+<div class="upload-file">  
+<label class="file-upload" for="file-upload"><i class="blog-image-icon"><img src="img/blog-image-icon.svg" alt=""/></i>
+<strong>Drop more file(s) here  <p>or browse</p> <br>Support Jpg Png Gif </strong>
+ <input type="file" id="file-upload"></label>
+</div>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-6 form-group">
+<div class="form-control upload-process-bx">  
+<strong>Uploading</strong>
+</div>
+<div class="uploaded-files-list"> 
+<ul class="ul-row">
+<li><figure class="upload-s-img"><img src="img/pp-banner-img1.jpg" alt="">
+<a class="remove-file-btn" href="#"><i class="lb lb-delete-icon"></i></a></figure></li>
+
+</ul>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+<div class="col-12">
+<div class="save-cancel-btns text-center">
+<ul class="ul-row">
+<li><button class="btn solid-btn">Post</button></li>
+</ul>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>	 
+</div>       
+      </div>
+    </div>
+  </section>
+  <!-- Account-section-end --> 
+  
+</main>
+<!-- main-area-end --> 
+<!-- footer -->
+<footer class="footer-area">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="footer-logo"><a href="index.html"><img src="img/star-gold-img.svg" alt=""/></a></div>
+      </div>
+      <div class="col-12">
+	  <div class="footer-menu">
+        <ul class="ul-row">
+		        <li><a href="index.html">Home</a></li>
+                <li><a href="terms-of-use.html">Terms of Use</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+				<li><a href="sitemap.html">Sitemap</a></li>
+           </ul>
+		</div>
+      </div>     
+      <div class="col-12">
+        <div class="portfolio-footer-social text-center"> <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram-icon.svg" alt=""/></a> <a href="https://www.facebook.com/"  target="_blank"><img src="img/facebook-icon.svg" alt=""/></a> <a href="https://twitter.com/" target="_blank"><img src="img/twitter-icon.svg" alt=""/></a> </div>
+      </div>
+      <div class="col-12">
+        <div class="copyright-text text-center">
+          <p><a href="index.html">Liberate</a> © 2020 All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer-end -->
+<!-- invite-users-popup Modal start -->
+<div class="modal bg-shape-popup invite-users-popup" id="invite-users-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+	<div class="modal-header">
+		 <h2 class="modal-heading">Invite People</h2>
+		 <button type="button" class="close" data-dismiss="modal"><i class="lb lb-cancel-icon"></i></button>
+	</div>
+      <div class="modal-body">
+        <div class="info-popup-content">		
+		<div class="share-service-input">
+		<div class="form-group">       
+	   <div class="share-with-smo">
+	 <div class="portfolio-footer-social text-center"> <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram-icon.svg" alt=""></a> <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook-icon.svg" alt=""></a> <a href="https://twitter.com/" target="_blank"><img src="img/twitter-icon.svg" alt=""></a> </div>
+	   </div>      
+      </div>
+		 <div class="btn-input mb-20">
+	    <input type="email" class="form-control" id="email-address" placeholder="" value="MEET.LIBRATE/JFDSSDFDRESDF/H1RFF221">
+		  <button class="btn input-btn" type="">Copy</button>
+	   </div> 
+	    <div class="btn-input">
+		<div class="up-gray-heading">
+   <strong>Invite with email</strong> 
+</div>
+	    <input class="form-control input-tags" type="text" data-role="tagsinput" placeholder="Enter invite emails...">
+		  <button class="btn input-btn" type="">Send</button>
+	   </div> 
+		</div>	
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- invite-users-popup Modal end -->
+<!-- sidebar-all-links Modal start -->
+<div class="modal right fade modal-sidebar sidebar-all-links-popup" id="sidebar-all-links" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h2 class="modal-heading">All Link</h2>
+<button type="button" class="close" data-dismiss="modal"><i class="lb lb-cancel-icon"></i></button>
+</div>
+<div class="modal-body">
+<div class="sidebar-filter-box bdr-btm">
+<div class="filter-categories-list">
+<ul>
+   <li><a href="https://avniksofttech.com/liberate/web/login.html">Login</a></li>
+   <li><a href="https://avniksofttech.com/liberate/web/sign-up.html">Register</a></li>
+   <li><a href="https://avniksofttech.com/liberate/web/forgot-password.html">Forgot Password</a></li>
+   <li><a href="https://avniksofttech.com/liberate/web/reset-password-sent-link.html">Reset Password Sent Link</a></li>
+   <li><a href="https://avniksofttech.com/liberate/web/reset-password.html">Reset Password</a></li>
+   <li><a href="https://avniksofttech.com/liberate/web/choose-interest.html">Choose Interest</a></li>
+   <li><a href="https://avniksofttech.com/liberate/web/home.html">Home</a></li>
+   <li><a href="https://avniksofttech.com/liberate/web/profile.html">Profile</a></li>
+   <li><a href="https://avniksofttech.com/liberate/web/account.html">Dashboard</a></li>
+   <li><a href="https://avniksofttech.com/liberate/web/apply-for-practitioner.html">Apply for Practitioner</a></li>
+   <li><a href="https://avniksofttech.com/liberate/web/create-event.html">Create Events</a></li>
+   <li><a href="https://avniksofttech.com/liberate/web/favourite.html">Favourite</a></li>
+<li><a href="https://avniksofttech.com/liberate/web/meet/index.html">Meet</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- sidebar-all-links Modal start -->
+<!-- JS here -->  
+<script src="js/vendor/jquery-1.12.4.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.js"></script>
+<script src="js/isotope.pkgd.min.js"></script> 
+<script src="js/slick.min.js"></script> 
+<script src="js/jquery.meanmenu.min.js"></script> 
+<script src="js/ajax-form.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script src="js/aos.js"></script> 
+<script src="js/animated-headline.js"></script> 
+<script src="js/paroller.js"></script> 
+<script src="js/jquery.nice-select.min.js"></script> 
+<script src="js/parallax-scroll.js"></script> 
+<script src="js/element-in-view.js"></script> 
+<script src="js/jquery.scrollUp.min.js"></script> 
+<script src="js/imagesloaded.pkgd.min.js"></script> 
+<script src="js/jquery.magnific-popup.min.js"></script> 
+<script src="js/plugins.js"></script> 
+<script src="js/tooltip.js"></script> 
+<script src="js/main.js"></script>
+<script>
+// Favorite Button - Heart
+$('.favme').click(function() {
+	$(this).toggleClass('active');
+});
+/* when a user clicks, toggle the 'is-animating' class */
+$(".favme").on('click touchstart', function(){
+  $(this).toggleClass('is_animating');
+});
+/*when the animation is over, remove the class*/
+$(".favme").on('animationend', function(){
+  $(this).toggleClass('is_animating');
+});
+</script><script>
+	 $('.slider').slick({
+ 	slidesToShow: 1,
+ 	slidesToScroll: 1,
+ 	arrows: true,
+ 	fade: false,
+ 	asNavFor: '.slider-nav-thumbnails',
+ });
+
+ $('.slider-nav-thumbnails').slick({
+ 	slidesToShow: 5,
+ 	slidesToScroll: 1,
+ 	asNavFor: '.slider',
+ 	dots: false,
+ 	focusOnSelect: true
+ });
+
+ // Remove active class from all thumbnail slides
+ $('.slider-nav-thumbnails .slick-slide').removeClass('slick-active');
+
+ // Set active class to first thumbnail slides
+ $('.slider-nav-thumbnails .slick-slide').eq(0).addClass('slick-active');
+
+ // On before slide change match active thumbnail to current slide
+ $('.slider').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+ 	var mySlideNumber = nextSlide;
+ 	$('.slider-nav-thumbnails .slick-slide').removeClass('slick-active');
+ 	$('.slider-nav-thumbnails .slick-slide').eq(mySlideNumber).addClass('slick-active');
+});
+</script>
+</body>
+</html>

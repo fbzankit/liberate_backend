@@ -1,0 +1,276 @@
+@font-face {
+  font-family: 'liberate-font-icon';
+  src:
+    url('../fonts/liberate-font-icon.woff2?ifetmf') format('woff2'),
+    url('../fonts/liberate-font-icon.ttf?ifetmf') format('truetype'),
+    url('../fonts/liberate-font-icon.woff?ifetmf') format('woff'),
+    url('../fonts/liberate-font-icon.svg?ifetmf#liberate-font-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.lb{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'liberate-font-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lb-time-watch-icon:before {
+  content: "\e911";
+}
+.lb-meet-icon:before {
+  content: "\e90f";
+}
+.lb-credits-icon:before {
+  content: "\e910";
+}
+.lb-block-icon:before {
+  content: "\e958";
+}
+.lb-interests-dashboard-icon:before {
+  content: "\e900";
+}
+.lb-add-icon:before {
+  content: "\e901";
+}
+.lb-apply--for-practitioner-icon:before {
+  content: "\e902";
+}
+.lb-attachment-icon:before {
+  content: "\e903";
+}
+.lb-awaiting-icon:before {
+  content: "\e904";
+}
+.lb-back-icon:before {
+  content: "\e905";
+}
+.lb-billinginfo-icon:before {
+  content: "\e906";
+}
+.lb-bookmark-icon:before {
+  content: "\e907";
+}
+.lb-calendar-icon:before {
+  content: "\e908";
+}
+.lb-cancel-icon:before {
+  content: "\e909";
+}
+.lb-categories-1-icon:before {
+  content: "\e90a";
+}
+.lb-categories-3-icon:before {
+  content: "\e90b";
+}
+.lb-categories_2-icon:before {
+  content: "\e90c";
+}
+.lb-certification-icon:before {
+  content: "\e90d";
+}
+.lb-copy-icon:before {
+  content: "\e90e";
+}
+.lb-dashboard-icon:before {
+  content: "\e914";
+}
+.lb-delete-icon:before {
+  content: "\e915";
+}
+.lb-delivery-box-icon:before {
+  content: "\e916";
+}
+.lb-dollar-icon:before {
+  content: "\e917";
+}
+.lb-dollar-cricle-icon:before {
+  content: "\e918";
+}
+.lb-dropdown-icon:before {
+  content: "\e919";
+}
+.lb-edit-icon:before {
+  content: "\e91a";
+}
+.lb-emoji-icon:before {
+  content: "\e91b";
+}
+.lb-exit-icon:before {
+  content: "\e91c";
+}
+.lb-favorite-icon:before {
+  content: "\e91d";
+}
+.lb-file-icon:before {
+  content: "\e91e";
+}
+.lb-filter-icon:before {
+  content: "\e91f";
+}
+.lb-generate-code-icon:before {
+  content: "\e920";
+}
+.lb-google-forms-icon:before {
+  content: "\e921";
+}
+.lb-grid-view-icon:before {
+  content: "\e922";
+}
+.lb-home-icon:before {
+  content: "\e923";
+}
+.lb-horizontal-more-icon:before {
+  content: "\e924";
+}
+.lb-host-icon:before {
+  content: "\e925";
+}
+.lb-interests-icon:before {
+  content: "\e926";
+}
+.lb-invite-icon:before {
+  content: "\e92d";
+}
+.lb-left_arrow-icon:before {
+  content: "\e92e";
+}
+.lb-list-view-icon:before {
+  content: "\e92f";
+}
+.lb-location-icon:before {
+  content: "\e930";
+}
+.lb-medial-icon:before {
+  content: "\e931";
+}
+.lb-message-icon:before {
+  content: "\e932";
+}
+.lb-minus-icon:before {
+  content: "\e933";
+}
+.lb-modalities-icon:before {
+  content: "\e934";
+}
+.lb-non-review-icon:before {
+  content: "\e935";
+}
+.lb-notification-icon:before {
+  content: "\e936";
+}
+.lb-pause-timer-icon:before {
+  content: "\e937";
+}
+.lb-Payments-icon:before {
+  content: "\e938";
+}
+.lb-play_video-icon:before {
+  content: "\e939";
+}
+.lb-plush-icon:before {
+  content: "\e93a";
+}
+.lb-question-icon:before {
+  content: "\e93b";
+}
+.lb-quote-icon:before {
+  content: "\e93c";
+}
+.lb-receive-icon:before {
+  content: "\e93d";
+}
+.lb-received-icon:before {
+  content: "\e93e";
+}
+.lb-referrals-icon:before {
+  content: "\e93f";
+}
+.lb-refresh-icon:before {
+  content: "\e940";
+}
+.lb-reply-icon:before {
+  content: "\e941";
+}
+.lb-report-icon:before {
+  content: "\e942";
+}
+.lb-review-icon:before {
+  content: "\e943";
+}
+.lb-review-1-icon:before {
+  content: "\e944";
+}
+.lb-rigth_arrow-icon:before {
+  content: "\e945";
+}
+.lb-search-icon:before {
+  content: "\e946";
+}
+.lb-send-icon:before {
+  content: "\e947";
+}
+.lb-send-invitation-icon:before {
+  content: "\e948";
+}
+.lb-sent-icon:before {
+  content: "\e949";
+}
+.lb-sent-1-icon:before {
+  content: "\e94a";
+}
+.lb-service-icon:before {
+  content: "\e94b";
+}
+.lb-settings-icon:before {
+  content: "\e94c";
+}
+.lb-share-icon:before {
+  content: "\e94d";
+}
+.lb-specialities-icon:before {
+  content: "\e94e";
+}
+.lb-terms-and-conditions-icon:before {
+  content: "\e94f";
+}
+.lb-up-dropdown-icon:before {
+  content: "\e950";
+}
+.lb-user-icon:before {
+  content: "\e951";
+}
+.lb-user-1-icon:before {
+  content: "\e952";
+}
+.lb-user-images-icon:before {
+  content: "\e953";
+}
+.lb-verification-icon .path1:before {
+  content: "\e954";
+  color: rgb(18, 184, 0);
+}
+.lb-verification-icon .path2:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.lb-video-play-icon:before {
+  content: "\e956";
+}
+.lb-withdraw-icon:before {
+  content: "\e957";
+}
+
+
+

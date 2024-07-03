@@ -1,0 +1,162 @@
+html,
+body {
+  background: #fff !important; }
+  
+  @font-face {
+  font-family: 'barlowbold';
+  src: url('../fonts/barlow-bold-webfont.eot');
+  src: url('../fonts/barlow-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/barlow-bold-webfont.woff2') format('woff2'), url('../fonts/barlow-bold-webfont.woff') format('woff'), url('../fonts/barlow-bold-webfont.ttf') format('truetype'), url('../fonts/barlow-bold-webfont.svg#barlowbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'barlowitalic';
+  src: url('../fonts/barlow-italic-webfont.eot');
+  src: url('../fonts/barlow-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/barlow-italic-webfont.woff2') format('woff2'), url('../fonts/barlow-italic-webfont.woff') format('woff'), url('../fonts/barlow-italic-webfont.ttf') format('truetype'), url('../fonts/barlow-italic-webfont.svg#barlowitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'barlowlight';
+  src: url('../fonts/barlow-light-webfont.eot');
+  src: url('../fonts/barlow-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/barlow-light-webfont.woff2') format('woff2'), url('../fonts/barlow-light-webfont.woff') format('woff'), url('../fonts/barlow-light-webfont.ttf') format('truetype'), url('../fonts/barlow-light-webfont.svg#barlowlight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'barlowmedium';
+  src: url('../fonts/barlow-medium-webfont.eot');
+  src: url('../fonts/barlow-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/barlow-medium-webfont.woff2') format('woff2'), url('../fonts/barlow-medium-webfont.woff') format('woff'), url('../fonts/barlow-medium-webfont.ttf') format('truetype'), url('../fonts/barlow-medium-webfont.svg#barlowmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'barlowregular';
+  src: url('../fonts/barlow-regular-webfont.eot');
+  src: url('../fonts/barlow-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/barlow-regular-webfont.woff2') format('woff2'), url('../fonts/barlow-regular-webfont.woff') format('woff'), url('../fonts/barlow-regular-webfont.ttf') format('truetype'), url('../fonts/barlow-regular-webfont.svg#barlowregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'barlowsemibold';
+  src: url('../fonts/barlow-semibold-webfont.eot');
+  src: url('../fonts/barlow-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/barlow-semibold-webfont.woff2') format('woff2'), url('../fonts/barlow-semibold-webfont.woff') format('woff'), url('../fonts/barlow-semibold-webfont.ttf') format('truetype'), url('../fonts/barlow-semibold-webfont.svg#barlowsemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'barlowregular';
+  font-weight: normal;
+  font-size: 14px;
+  color: #7e7e7e;
+  font-style: normal;
+  background-image: url("../img/pattern-bg-img.png");
+}
+.img {
+  max-width: 100%;
+  transition: all 0.3s ease-out 0s;
+}
+
+.invoice-print {
+    min-width: 768px !important;
+    font-size: 15px !important;
+    padding: 3rem !important;
+}
+.mb-25 {
+    margin-bottom: 0.25rem !important;
+}
+p{line-height:normal;}
+.invoice-print .invoice-date-wrapper {
+  display: flex;
+  align-items: center; }
+
+.invoice-print .invoice-date-wrapper .invoice-date-title {
+    width: 6rem;
+}
+
+.invoice-print i,
+.invoice-print svg {
+  fill: #6e6b7b !important; }
+
+.invoice-print .invoice-total-wrapper {
+  width: 100%;
+  max-width: 12rem; }
+
+.invoice-print .invoice-total-wrapper .invoice-total-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.invoice-print .invoice-total-wrapper .invoice-total-item .invoice-total-title {
+  margin-bottom: 0.35rem; }
+
+.invoice-print .invoice-total-wrapper .invoice-total-item .invoice-total-amount {
+  margin-bottom: 0.35rem;
+  font-weight: 600; }
+
+.invoice-print * {
+  border-color: rgba(34, 41, 47, 0.5) !important;
+  color: #6e6b7b !important; }
+  .table > :not(:last-child) > :last-child > * {
+    border-bottom-color: #ebe9f1;
+}
+  .table:not(.table-dark):not(.table-light) thead:not(.table-dark) th, .table:not(.table-dark):not(.table-light) tfoot:not(.table-dark) th {
+    background-color: #f3f2f7;
+}
+
+p {
+    font-size: 16px !important;
+    line-height: 24px!important;
+}
+.pb-2 {
+    padding-bottom: 1.5rem !important;
+}
+.mb-1 {
+    margin-bottom: 1rem !important;
+}
+.py-1 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.my-2 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+.ps-4 {
+    padding-left: 3.5rem !important;
+}
+h3.text-primary.invoice-logo {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.fw-bold {
+    font-weight: 500 !important;
+}
+.text-end {
+    text-align: right !important;
+}
+.mb-1 {
+    margin-bottom: 1rem !important;
+}
+.mb-50 {
+    margin-bottom: 0.5rem !important;
+}
+
+.print-btn {
+    background-color: #876FBD;
+    text-align: right;
+    font-size: 16px;
+    color: #ffffff !important;
+    padding: 6px 20px;
+    border: 0;
+}
+.print-btn img {
+    position: relative;
+    top: -2px;
+}
+.print-btn:hover{opacity:0.8;}
+.print-btn-outer {
+    text-align: right;
+    margin-bottom: 15px;
+}
